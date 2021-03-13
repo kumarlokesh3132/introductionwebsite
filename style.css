@@ -1,0 +1,143 @@
+body{
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+	font-family: 'Open Sans', sans-serif;
+	background-color: #393e46;
+}
+p{
+	font-size: 20px;
+	color: #eeeeee;
+}
+hr{	position: relative;
+	border-style: none;
+	width: 5%;
+	border: none;
+	border-bottom: 8px dotted white;
+}
+h1{
+	color: #00adb5;
+	font-size: 30px;
+}
+h2{
+	color: #00adb5;
+	text-align: center;
+}
+/*---------------------------------------------------------------------class-------------------------------------------------------------------*/
+  .btn{
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  width: 20%;
+  margin: 40px auto;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #00adb5;
+  background-image: -webkit-linear-gradient(top, #00adb5, #3498db);
+  background-image: -moz-linear-gradient(top, #00adb5, #3498db);
+  background-image: -ms-linear-gradient(top, #00adb5, #3498db);
+  background-image: -o-linear-gradient(top, #00adb5, #3498db);
+  background-image: linear-gradient(to bottom, #00adb5, #3498db);
+  text-decoration: none;
+}
+.bottom{
+	background-color: #c8c6a7;
+	margin-bottom: 0px;
+	 padding-bottom: 20px;
+}
+
+.cloud1{
+	position: relative;
+	right: 0px;
+	left: 250px;
+}
+.cloud2{
+	position: relative;
+	left: 1050px;
+	bottom: 670px;	
+}
+.des{
+	position: relative;
+	right: 0px;
+}
+.hi{
+	font-size: 5.46rem;	
+	font-weight: 20px;
+	font-family: 'Josefin Slab', serif;
+	position: relative;
+	left: 30px;
+	color: #00adb5;
+}
+.hobby{
+	text-align: right;
+	margin: 100px auto 100px auto;
+
+}
+.intro{
+	font-size: 24px;
+	position: relative;
+	bottom: 50px;
+	left: 30px;
+}
+.link{
+	text-align: center;
+	padding: 20px;
+}
+.middle{
+	text-align: center;
+	position: relative;
+	width: 60%;
+	margin: auto;
+}
+.mountain{
+	position: relative;
+	left: 400px;
+	min-width: 400px;
+	bottom: 140px;
+}
+.profile{
+	margin: 60px auto 60px auto;
+}
+.skill{
+	margin: 60px auto 120px auto;
+	line-height: 2;
+	text-align: left;
+}
+.skill-img{
+	float: left;
+	margin-right: 30px;
+}
+.sports{
+	text-align: left;
+	line-height: 2;
+	margin: 100px auto 100px auto;
+}
+.sport-img{
+	float: left;
+	margin-right: 30px; 
+}
+.street-img{
+	float: right;
+	margin-left: 30px;
+}
+.top {
+	position: relative;
+	padding-top: 100px;
+	max-height: 700px;
+	height: 100%;
+	background-color: #000000;
+}
